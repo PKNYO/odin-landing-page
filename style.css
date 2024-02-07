@@ -118,3 +118,26 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-autor {
+    color: #1F2937;
+    margin-left: auto;
+    font-weight: bolder;
+}
