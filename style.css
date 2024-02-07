@@ -73,3 +73,48 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.information p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-text {
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0 100px 0;
+}
+
+.info-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-down {
+    display: flex;
+
+}
+
+.info-image {
+    border: solid 2px #3882f6 ;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.info-down div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
