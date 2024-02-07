@@ -141,3 +141,43 @@ button {
     margin-left: auto;
     font-weight: bolder;
 }
+
+.cta {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.cta-card {
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px 0 100px 0;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.cta-text {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.cta-descr {
+    font-size: 18px;
+    color: #f9faf8;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.cta button {
+    border: solid 2px #e5e7eb;
+    padding: 10px 25px 10px 25px;
+    margin-right: 5vw;
+}
+
+.cta-card div {
+    margin-left: 5vw;
+}
